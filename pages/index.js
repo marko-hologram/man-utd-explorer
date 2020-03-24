@@ -1,7 +1,7 @@
 import Head from "next/head"
 import SideNavbar from "../components/SideNavbar"
 import MainPage from "../components/MainPage"
-import MyImage from "../public/MyImage"
+import BackgroundImage from "../public/BackgroundImage"
 
 const Index = () => {
   return (
@@ -15,7 +15,7 @@ const Index = () => {
           <div className="text-center text-5xl font-bold text-gray-200">
             <div className="m-4 px-5 py-5">Manchester United</div>
           </div>
-          <MyImage />
+          {/* <MyImage /> */}
         </MainPage>
       </div>
     </div>

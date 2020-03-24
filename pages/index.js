@@ -9,18 +9,14 @@ const Index = () => {
       <Head>
         <title>Manchester United</title>
       </Head>
-      <div className="mx-auto min-h-screen">
-        <div className="flex flex-row">
-          <SideNavbar />
-          <MainPage>
-            <div className="text-center px-4 text-5xl font-bold text-gray-200">
-              <div className="bg-red-900 py-5">Manchester United</div>
-            </div>
-            <div className="p-4">
-              <MyImage />
-            </div>
-          </MainPage>
-        </div>
+      <div className="flex flex-row">
+        <SideNavbar />
+        <MainPage>
+          <div className="text-center text-5xl font-bold text-gray-200">
+            <div className="m-4 px-5 py-5">Manchester United</div>
+          </div>
+          <MyImage />
+        </MainPage>
       </div>
     </div>
   )

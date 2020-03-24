@@ -1,7 +1,7 @@
 const SideNavbar = () => {
   return (
     <>
-      <div className="min-h-screen w-1/5 bg-gray-200">
+      <div className="min-h-screen w-1/6 bg-gray-200">
         <div className="flex flex-col h-full text-center text-2xl text-gray-900 font-semibold items-center justify-center">
           <div className="px-10 py-20">
             <div> Home </div>

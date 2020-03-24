@@ -1,7 +1,7 @@
 const MainPage = props => {
   return (
     <>
-      <div {...props} className="min-h-screen w-3/4 bg-gray-100" />
+      <div {...props} className="min-h-screen w-4/5 bg-red-900" />
     </>
   )
 }

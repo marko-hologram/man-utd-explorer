@@ -1,4 +1,4 @@
-import MUFCLogoImage from "../public/MUFCLogoImage"
+import MUFCLogoImage from "./MUFCLogoImage"
 
 const SideNavbar = () => {
   return (

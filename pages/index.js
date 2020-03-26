@@ -1,7 +1,6 @@
 import Head from "next/head"
 import SideNavbar from "../components/SideNavbar"
 import MainPage from "../components/MainPage"
-import BackgroundImage from "../public/BackgroundImage"
 
 const Index = () => {
   return (

@@ -1,3 +1,7 @@
+/* Tell purgecss to ignore some files because we don't want to remove any css they contain. https://tailwindcss.com/docs/controlling-file-size/#setting-up-purgecss */
+/* purgecss start ignore */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+/* purgecss end ignore */
+
 @import "tailwindcss/utilities";
